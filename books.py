@@ -1,13 +1,11 @@
 import csv
 import requests
 import isbnlib
-from isbnlib import metadata
-from isbnlib.registry import bibformatters
 
 def get_book_info(isbn):
     try:
         # Get metadata using isbnlib
-        book_meta = metadata(isbn)
+        book_meta = isbnlib.meta(isbn)
         
         # Get cover image URL
         cover_url = f"https://covers.openlibrary.org/b/isbn/{isbn}-M.jpg"
