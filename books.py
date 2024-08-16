@@ -8,12 +8,11 @@ def get_book_info(isbn):
         book_meta = isbnlib.meta(isbn)
         
         # Get cover image URL
-        cover_url = f"https://covers.openlibrary.org/b/isbn/{isbn}-M.jpg"
+        cover_url = f"https://covers.openlibrary.org/b/isbn/{isbn}-S.jpg"
         
         return {
             'title': book_meta.get('Title', 'Unknown'),
             'authors': ', '.join(book_meta.get('Authors', ['Unknown'])),
-            'publisher': book_meta.get('Publisher', 'Unknown'),
             'year': book_meta.get('Year', 'Unknown'),
             'isbn': isbn,
             'cover_url': cover_url
@@ -23,16 +22,17 @@ def get_book_info(isbn):
         return None
 
 def generate_readme(books):
-    readme_content = "# My Current Reading List\n\n"
+    readme_content = "## My Current Reading List\n\n"
     
     for book in books:
         if book:
-            readme_content += f"## {book['title']}\n\n"
-            readme_content += f"![Book Cover]({book['cover_url']})\n\n"
-            readme_content += f"- **Author(s)**: {book['authors']}\n"
-            readme_content += f"- **Publisher**: {book['publisher']}\n"
-            readme_content += f"- **Year**: {book['year']}\n"
-            readme_content += f"- **ISBN**: {book['isbn']}\n\n"
+            readme_content += f"### {book['title']}\n\n"
+            readme_content += "| Cover | Details |\n"
+            readme_content += "| ----- | ------- |\n"
+            readme_content += f"| ![Book Cover]({book['cover_url']}) | "
+            readme_content += f"**Author(s)**: {book['authors']}<br>"
+            readme_content += f"**Year**: {book['year']}<br>"
+            readme_content += f"**ISBN**: {book['isbn']} |\n\n"
     
     return readme_content
 
