@@ -5,35 +5,35 @@ on:
     branches:
       - main
     paths:
-      - 'isbn_list.csv'
+      - "isbn_list.csv"
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-      with:
-        token: ${{ secrets.PAT }}
-        fetch-depth: 0
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PAT }}
+          fetch-depth: 0
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests isbnlib setuptools
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests isbnlib setuptools
 
-    - name: Run update script
-      run: python books.py
+      - name: Run update script
+        run: python main.py
 
-    - name: Commit and push if changed
-      run: |
-        git config --global user.email "boessena@bc.edu"
-        git config --global user.name "Andrew Boessen"
-        git add README.md
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update README with latest book list" && git push)
+      - name: Commit and push if changed
+        run: |
+          git config --global user.email "boessena@bc.edu"
+          git config --global user.name "Andrew Boessen"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update README with latest book list" && git push)
