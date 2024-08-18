@@ -8,7 +8,7 @@ def get_book_info(isbn):
         book_meta = isbnlib.meta(isbn)
         
         # Get cover image URL
-        cover_url = f"https://covers.openlibrary.org/b/isbn/{isbn}-S.jpg"
+        cover_url = f"https://covers.openlibrary.org/b/isbn/{isbn}-M.jpg"
         
         return {
             'title': book_meta.get('Title', 'Unknown'),
@@ -22,7 +22,7 @@ def get_book_info(isbn):
         return None
 
 def generate_readme(books):
-    readme_content = "## My Current Reading List\n\n"
+    readme_content = "## Current Reading List\n\n"
     
     for book in books:
         if book:
