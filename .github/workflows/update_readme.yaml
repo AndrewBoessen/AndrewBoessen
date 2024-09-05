@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "isbn_list.csv"
+      - "isbn_list.txt"
 
 jobs:
   update-readme:
