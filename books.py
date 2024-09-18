@@ -35,9 +35,8 @@ def generate_readme(books):
     readme_content += f"**Year**: {current_book['year']}<br>"
     readme_content += f"**ISBN**: {current_book['isbn']} |\n\n"
 
-    # Backlog
+    # Bookshelf
     if len(books) > 1:
-        readme_content += "### Backlog\n\n"
         readme_content += "| Cover | Title | Author(s) | Year | ISBN |\n"
         readme_content += "| ----- | ----- | --------- | ---- | ---- |\n"
         for book in books[1:]:
