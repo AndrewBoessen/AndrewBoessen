@@ -19,4 +19,4 @@ Currently working on machine learning and embeded systems programming
 | ![Book Cover](https://covers.openlibrary.org/b/isbn/9780575082076-S.jpg) | Permutation City | Greg Egan | 2008 | 9780575082076 |
 | ![Book Cover](https://covers.openlibrary.org/b/isbn/9780128119051-S.jpg) | Computer Architecture - A Quantitative Approach | John L. Hennessy, David A. Patterson | 2017 | 9780128119051 |
 | ![Book Cover](https://covers.openlibrary.org/b/isbn/0262193981-S.jpg) | Reinforcement Learning - An Introduction | Richard S. Sutton, Andrew G. Barto | 1998 | 0262193981 |
-| ![Book Cover](https://covers.openlibrary.org/b/isbn/9781439513132-S.jpg) | The Plague | Albert Camus | 1991 | 9781439513132 |
+| ![Book Cover](https://covers.openlibrary.org/b/isbn/9781616402426-S.jpg) | Notes From The Underground | Fyodor Dostoyevsky | 2010 | 9781616402426 |
