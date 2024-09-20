@@ -16,6 +16,6 @@ Currently working on machine learning and embeded systems programming
 | ----- | ----- | --------- | ---- | ---- |
 | ![Book Cover](https://covers.openlibrary.org/b/isbn/0140077022-S.jpg) | White Noise | Don DeLillo | 1986 | 0140077022 |
 | ![Book Cover](https://covers.openlibrary.org/b/isbn/9780575082076-S.jpg) | Permutation City | Greg Egan | 2008 | 9780575082076 |
-| ![Book Cover](https://covers.openlibrary.org/b/isbn/9780345235114-S.jpg) | TEST WMS UBVU Multipart BThe Lord Of The Rings: The Return Of The King | John Ronald Reuel Tolkien | 1973 | 9780345235114 |
+| ![Book Cover](https://covers.openlibrary.org/b/isbn/9780007203567-S.jpg) | The Return Of The King - Being The Third Part Of The Lord Of The Rings | John Ronald Reuel Tolkien | 2005 | 9780007203567 |
 | ![Book Cover](https://covers.openlibrary.org/b/isbn/0262193981-S.jpg) | Reinforcement Learning - An Introduction | Richard S. Sutton, Andrew G. Barto | 1998 | 0262193981 |
 | ![Book Cover](https://covers.openlibrary.org/b/isbn/9781616402426-S.jpg) | Notes From The Underground | Fyodor Dostoyevsky | 2010 | 9781616402426 |
