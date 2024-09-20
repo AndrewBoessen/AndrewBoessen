@@ -22,11 +22,11 @@ def generate_readme(books):
     if not books:
         return "No books found."
 
-    readme_content = "## My Reading List\n\n"
+    readme_content = "## Currently Reading\n\n"
 
     # Currently Reading
     current_book = books[0]
-    readme_content += "## _Currently Reading_\n\n"
+    #readme_content += "## Currently Reading\n\n"
     readme_content += f"### {current_book['title']}\n\n"
     readme_content += "| Cover | Details |\n"
     readme_content += "| ----- | ------- |\n"
