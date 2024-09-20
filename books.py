@@ -26,7 +26,7 @@ def generate_readme(books):
 
     # Currently Reading
     current_book = books[0]
-    readme_content += "## Currently Reading\n\n"
+    readme_content += "## _Currently Reading_\n\n"
     readme_content += f"### {current_book['title']}\n\n"
     readme_content += "| Cover | Details |\n"
     readme_content += "| ----- | ------- |\n"
