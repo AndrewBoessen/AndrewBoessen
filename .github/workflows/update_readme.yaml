@@ -37,6 +37,5 @@ jobs:
         run: |
           git config --global user.email "boessena@bc.edu"
           git config --global user.name "Andrew Boessen"
-          git pull
           git add README.md
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update README with latest book list" && git push)
