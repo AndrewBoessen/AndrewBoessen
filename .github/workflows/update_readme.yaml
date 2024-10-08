@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - "isbn_list.txt"
+      - "main.py"
+      - "books.py"
 
 jobs:
   update-readme:
