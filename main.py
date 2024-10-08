@@ -21,7 +21,7 @@ I'm a passionate Computer Science student at Boston College, with a minor in Fin
 ### 🌱 I'm currently learning
 - Advanced machine learning techniques
 - GPU acceleration for neural networks
-- Full-stack web development'''
+- Parallel Computing / Algorithms'''
 
     return readme_content
 
