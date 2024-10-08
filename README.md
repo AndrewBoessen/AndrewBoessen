@@ -18,7 +18,9 @@ I'm a passionate Computer Science student at Boston College, with a minor in Fin
 ### 🌱 I'm currently learning
 - Advanced machine learning techniques
 - GPU acceleration for neural networks
-- Parallel Computing / Algorithms## Currently Reading
+- Parallel Computing / Algorithms
+
+## Currently Reading
 
 ### Gödel, Escher, Bach - An Eternal Golden Braid
 
