@@ -8,7 +8,6 @@ I'm a passionate Computer Science student at Boston College, with a minor in Fin
 2. [Eagle Eval](https://github.com/AndrewBoessen/EagleEval) - Platform for Boston College course ratings using TypeScript, Angular, Express, and MongoDB
 3. [Re-Clip](https://github.com/AndrewBoessen/Re-Clip) - AI-powered mobile app for generating short-form video content from research papers and GitHub repos
 4. [CUDAgrad](https://github.com/AndrewBoessen/CUDAgrad) - GPU-accelerated autograd engine and neural network library using CUDA and C
-5. [BC Bites](https://github.com/AndrewBoessen/BC-Bites) - Web app for Boston College dining options using JavaScript, Python, Flask, MongoDB, and React
 ## Currently Reading
 
 ### Gödel, Escher, Bach - An Eternal Golden Braid
