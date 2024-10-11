@@ -4,7 +4,7 @@ def profile_readme():
     readme_content = '''# Hi, I'm Andrew!
 
 ## About Me
-I'm a passionate Computer Science student at Boston College, with a minor in Finance. I'm deeply interested in software engineering, machine learning, and building innovative projects that solve real-world problems.
+I'm a Computer Science student at Boston College, with a minor in Finance. I'm deeply interested in software engineering, machine learning, and building innovative projects that solve real-world problems.
 
 ### Projects
 1. [Perfect Rep](https://github.com/AndrewBoessen/PerfectRep) - 3D computer vision model for powerlifting analysis using PyTorch and Transformers
