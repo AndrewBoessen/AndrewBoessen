@@ -22,6 +22,5 @@ I'm a Computer Science student at Boston College, with a minor in Finance. I'm d
 | ----- | ----- | --------- | ---- | ---- |
 | ![Book Cover](http://books.google.com/books/content?id=HHqMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api) | White Noise | Don DeLillo | 1986 | 0140077022 |
 | ![Book Cover](http://books.google.com/books/content?id=1gE5zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api) | The Return of the King (the Lord of the Rings, Book 3) | J. R. R. Tolkien | 2022 | 000856714X |
-| ![Book Cover]() | The return of the king | John Ronald Reuel Tolkien | 1976 | 0345253450 |
 | ![Book Cover](http://books.google.com/books/content?id=CAFR6IBF4xYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api) | Reinforcement Learning | Richard S. Sutton, Andrew G. Barto | 1998 | 0262193981 |
 | ![Book Cover](http://books.google.com/books/content?id=NjqkkVoY1McC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api) | Notes from the Underground | Fyodor Dostoyevsky | 2010 | 9781616402426 |
