@@ -10,16 +10,17 @@ I'm a Computer Science student at Boston College, with a minor in Finance. I'm d
 4. [CUDAgrad](https://github.com/AndrewBoessen/CUDAgrad) - GPU-accelerated autograd engine and neural network library using CUDA and C
 ## Currently Reading
 
-### Gödel, Escher, Bach - An Eternal Golden Braid
+### Gödel, Escher, Bach
 
 | Cover | Details |
 | ----- | ------- |
-| ![Book Cover](https://covers.openlibrary.org/b/isbn/0394745027-M.jpg) | **Author(s)**: Douglas R. Hofstadter<br>**Year**: 1980<br>**ISBN**: 0394745027 |
+| ![Book Cover]() | **Author(s)**: Douglas R. Hofstadter<br>**Year**: 1980<br>**ISBN**: 0394745027 |
+
+## Bookshelf
 
 | Cover | Title | Author(s) | Year | ISBN |
 | ----- | ----- | --------- | ---- | ---- |
-| ![Book Cover](https://covers.openlibrary.org/b/isbn/0140077022-S.jpg) | White Noise | Don DeLillo | 1986 | 0140077022 |
-| ![Book Cover](https://covers.openlibrary.org/b/isbn/9780575082076-S.jpg) | Permutation City | Greg Egan | 2008 | 9780575082076 |
-| ![Book Cover](https://covers.openlibrary.org/b/isbn/0345253450-S.jpg) | The Return Of The King | John Ronald Reuel Tolkien | 1976 | 0345253450 |
-| ![Book Cover](https://covers.openlibrary.org/b/isbn/0262193981-S.jpg) | Reinforcement Learning - An Introduction | Richard S. Sutton, Andrew G. Barto | 1998 | 0262193981 |
-| ![Book Cover](https://covers.openlibrary.org/b/isbn/9781616402426-S.jpg) | Notes From The Underground | Fyodor Dostoyevsky | 2010 | 9781616402426 |
+| ![Book Cover](http://books.google.com/books/content?id=HHqMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api) | White Noise | Don DeLillo | 1986 | 0140077022 |
+| ![Book Cover]() | The return of the king | John Ronald Reuel Tolkien | 1976 | 0345253450 |
+| ![Book Cover](http://books.google.com/books/content?id=CAFR6IBF4xYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api) | Reinforcement Learning | Richard S. Sutton, Andrew G. Barto | 1998 | 0262193981 |
+| ![Book Cover](http://books.google.com/books/content?id=NjqkkVoY1McC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api) | Notes from the Underground | Fyodor Dostoyevsky | 2010 | 9781616402426 |
