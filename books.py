@@ -1,22 +1,28 @@
 import requests
-import re
-import isbnlib
+
 
 def get_book_info(isbn):
     try:
-        book_meta = isbnlib.meta(isbn)
-        cover_url = f"https://covers.openlibrary.org/b/isbn/{isbn}-M.jpg"
-        
-        return {
-            'title': book_meta.get('Title', 'Unknown'),
-            'authors': ', '.join(book_meta.get('Authors', ['Unknown'])),
-            'year': book_meta.get('Year', 'Unknown'),
-            'isbn': isbn,
-            'cover_url': cover_url
-        }
+        url = f"https://www.googleapis.com/books/v1/volumes?q=isbn:{isbn}"
+        response = requests.get(url)
+        data = response.json()
+
+        if 'items' in data and len(data['items']) > 0:
+            book = data['items'][0]['volumeInfo']
+            return {
+                'title': book.get('title', 'Unknown'),
+                'authors': ', '.join(book.get('authors', ['Unknown'])),
+                'year': book.get('publishedDate', 'Unknown')[:4],
+                'isbn': isbn,
+                'cover_url': book.get('imageLinks', {}).get('thumbnail', '')
+            }
+        else:
+            print(f"No data found for ISBN {isbn}")
+            return None
     except Exception as e:
         print(f"Error fetching data for ISBN {isbn}: {str(e)}")
         return None
+
 
 def generate_readme(books):
     if not books:
@@ -26,7 +32,6 @@ def generate_readme(books):
 
     # Currently Reading
     current_book = books[0]
-    #readme_content += "## Currently Reading\n\n"
     readme_content += f"### {current_book['title']}\n\n"
     readme_content += "| Cover | Details |\n"
     readme_content += "| ----- | ------- |\n"
@@ -37,18 +42,21 @@ def generate_readme(books):
 
     # Bookshelf
     if len(books) > 1:
+        readme_content += "## Bookshelf\n\n"
         readme_content += "| Cover | Title | Author(s) | Year | ISBN |\n"
         readme_content += "| ----- | ----- | --------- | ---- | ---- |\n"
         for book in books[1:]:
-            readme_content += f"| ![Book Cover]({re.sub('M.jpg', 'S.jpg', book['cover_url'])}) | {book['title']} | {book['authors']} | {book['year']} | {book['isbn']} |\n"
+            readme_content += f"| ![Book Cover]({book['cover_url']}) | {book['title']} | {
+                book['authors']} | {book['year']} | {book['isbn']} |\n"
 
     return readme_content
 
+
 def readme_content():
     input_file = 'isbn_list.txt'
-    
+
     books = []
-    
+
     # Read ISBNs from txt file
     with open(input_file, 'r') as txt_file:
         for line in txt_file:
@@ -57,23 +65,26 @@ def readme_content():
                 book_info = get_book_info(isbn)
                 if book_info:
                     books.append(book_info)
-    
+
     # Generate README content
     readme_content = generate_readme(books)
 
-    print(f"README.md has been generated with information for {len(books)} books.")
+    print(f"README.md has been generated with information for {
+          len(books)} books.")
 
     return readme_content
 
+
 def main():
     output_file = 'README.md'
-    
+
     # Generate README content
     content = readme_content()
-    
+
     # Write README file
     with open(output_file, 'w', encoding='utf-8') as readme_file:
         readme_file.write(content)
+
 
 if __name__ == "__main__":
     main()
