@@ -1,7 +1,7 @@
 import requests
 
 
-def get_book_info(isbn):
+def get_book_info(isbn, small_thumbnail=False):
     try:
         url = f"https://www.googleapis.com/books/v1/volumes?q=isbn:{isbn}"
         response = requests.get(url)
@@ -9,12 +9,13 @@ def get_book_info(isbn):
 
         if 'items' in data and len(data['items']) > 0:
             book = data['items'][0]['volumeInfo']
+            pic_id = 'smallThumbnail' if small_thumbnail else 'thumbnail'
             return {
                 'title': book.get('title', 'Unknown'),
                 'authors': ', '.join(book.get('authors', ['Unknown'])),
                 'year': book.get('publishedDate', 'Unknown')[:4],
                 'isbn': isbn,
-                'cover_url': book.get('imageLinks', {}).get('thumbnail', '')
+                'cover_url': book.get('imageLinks', {}).get(pic_id, '')
             }
         else:
             print(f"No data found for ISBN {isbn}")
@@ -59,10 +60,10 @@ def readme_content():
 
     # Read ISBNs from txt file
     with open(input_file, 'r') as txt_file:
-        for line in txt_file:
+        for i, line in enumerate(txt_file):
             isbn = line.strip()
             if isbn:
-                book_info = get_book_info(isbn)
+                book_info = get_book_info(isbn) if i == 0 else get_book_info(isbn, small_thumbnail=True)
                 if book_info:
                     books.append(book_info)
 
