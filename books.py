@@ -10,7 +10,6 @@ def get_book_info(isbn, small_thumbnail=False):
         if 'items' in data and len(data['items']) > 0:
             book = data['items'][0]['volumeInfo']
             pic_id = 'smallThumbnail' if small_thumbnail else 'thumbnail'
-            print(pic_id)
             return {
                 'title': book.get('title', 'Unknown'),
                 'authors': ', '.join(book.get('authors', ['Unknown'])),
