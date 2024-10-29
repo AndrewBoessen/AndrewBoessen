@@ -11,6 +11,7 @@ I'm a Computer Science student at Boston College, with a minor in Finance. I'm d
 2. [Eagle Eval](https://github.com/AndrewBoessen/EagleEval) - Platform for Boston College course ratings using TypeScript, Angular, Express, and MongoDB
 3. [Re-Clip](https://github.com/AndrewBoessen/Re-Clip) - AI-powered mobile app for generating short-form video content from research papers and GitHub repos
 4. [CUDAgrad](https://github.com/AndrewBoessen/CUDAgrad) - GPU-accelerated autograd engine and neural network library using CUDA and C
+5. [1D Tokenizer](https://github.com/AndrewBoessen/simple-1d-tokenizer) - A neural architecture for encoding images into sequences of discrete tokens, enabling efficient image compression
 '''
 
     return readme_content
