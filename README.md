@@ -21,8 +21,8 @@ I'm a Computer Science student at Boston College, with a minor in Finance. I'm d
 
 | Cover | Title | Author(s) | Year | ISBN |
 | ----- | ----- | --------- | ---- | ---- |
+| ![Book Cover](http://books.google.com/books/content?id=FVMzz-xINLsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api) | Blindsight | Peter Watts | 2006 | 9781429955195 |
 | ![Book Cover](http://books.google.com/books/content?id=z5OzDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api) | The Ethical Algorithm | Michael Kearns, Aaron Roth | 2019 | 9780190948221 |
 | ![Book Cover](http://books.google.com/books/content?id=HHqMEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api) | White Noise | Don DeLillo | 1986 | 0140077022 |
-| ![Book Cover](http://books.google.com/books/content?id=1gE5zwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api) | The Return of the King (the Lord of the Rings, Book 3) | J. R. R. Tolkien | 2022 | 000856714X |
 | ![Book Cover](http://books.google.com/books/content?id=CAFR6IBF4xYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api) | Reinforcement Learning | Richard S. Sutton, Andrew G. Barto | 1998 | 0262193981 |
 | ![Book Cover](http://books.google.com/books/content?id=hU5Wk0o_iCoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api) | Notes from Underground | Fyodor Dostoevsky | 1994 | 9780679734529 |
