@@ -12,9 +12,9 @@ I'm a Computer Science student at Boston College, with a minor in Finance. I'm d
 6. [1D Tokenizer](https://github.com/AndrewBoessen/simple-1d-tokenizer) - A neural architecture for encoding images into sequences of discrete tokens, enabling efficient image compression
 ## Currently Reading
 
-### Blindsight
+### The Hidden Spring: A Journey to the Source of Consciousness
 
 | Cover | Details |
 | ----- | ------- |
-| ![Book Cover](http://books.google.com/books/content?id=FVMzz-xINLsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api) | **Author(s)**: Peter Watts<br>**Year**: 2006<br>**ISBN**: 9781429955195 |
+| ![Book Cover](http://books.google.com/books/content?id=l4zxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api) | **Author(s)**: Mark Solms<br>**Year**: 2021<br>**ISBN**: 9780393542028 |
 
